@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>pilight webgui</title>
+<link rel="stylesheet" type="text/css" href="css/meja.css" />
+<!-- <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet" type="text/css" /> -->
+<script type="text/javascript" src="js/meja.js"></script>
+<script type="text/javascript">
+window.onload=function() {
+	Meja.Require('js/forms/main.js');
+
+	Meja.OnLoaded=function() {
+		var Main = new Form.Main();
+		Main.create('#body');
+	}
+	Meja.Load();
+}
+</script>
+</head>
+<body id="body">
+</body>
+</html>
